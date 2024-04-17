@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.navbar {
+    display: flex;
+    background: linear-gradient(to right, rgb(87, 108, 128), rgb(121, 100, 146), rgb(140, 110, 145));
+    position: relative;
+  }
+  
+  .navbar-container {
+    width: 2000px;
+    margin: 0 auto;
+    display: flex;
+    height: 70px;
+    padding-right: 30px;
+    padding-left: 20px;    
+    align-items: center; 
+    justify-content: space-between; 
+    border: 2px solid #c6c0cd; /* Add a border */
+    box-shadow: 8px 8px 20px rgba(208, 112, 240, 0.5); /* Add a shadow for a 3D effect */
+  }
+  
+  .navbar-logo {
+    display: flex; 
+    align-items: center; 
+    color: #fff;
+    text-decoration: none;
+    font-size: 2.0em; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal; 
+    text-shadow: 4px 4px 8px rgba(105, 31, 142, 0.5); 
+    justify-content: flex-start;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .navbar-logo:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+
+  .navbar-icon {
+    height: 120px;
+    margin-right: 10px;
+    animation: fadeIn 0.5s ease-in forwards;
+    animation-delay: 0.5s; 
+  }
+  
+  .menu-icons {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .menu-icons:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+
+  .navbar-item {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+    transition: color 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .navbar-item:hover {
+    color: #693e8f; 
+  }
+  
+  @media screen and (max-width: 800px) {
+    .menu-icons {
+      display: none;
+    }
+  
+    .navbar-container {
+      flex-direction: column;
+    }
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .animated-logo {
+    animation: fadeIn 0.5s ease-in forwards;
+  }
+  
+  .animated-logo:nth-child(1) { animation-delay: 0.5s; }
+  .animated-logo:nth-child(2) { animation-delay: 1s; }
+  .animated-logo:nth-child(3) { animation-delay: 1.5s; }
+  .animated-logo:nth-child(4) { animation-delay: 2s; }
+  .animated-logo:nth-child(5) { animation-delay: 2.5s; }
+  .animated-logo:nth-child(6) { animation-delay: 3s; }
+  .animated-logo:nth-child(7) { animation-delay: 3.5s; }
+  .animated-logo:nth-child(8) { animation-delay: 4s; }
+  .animated-logo:nth-child(9) { animation-delay: 4.5s; }
+  .animated-logo:nth-child(10) { animation-delay: 5s; }
+  .animated-logo:nth-child(11) { animation-delay: 5.5s; }
+
+  .navbar .navbar-container .contact-us {
+    margin-left: auto;
+    margin-right: 20px;
+  }

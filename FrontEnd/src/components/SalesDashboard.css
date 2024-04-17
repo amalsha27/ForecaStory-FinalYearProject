@@ -1,0 +1,29 @@
+.sales-dashboard {
+  background: linear-gradient(to right, rgb(149, 111, 171), rgb(167, 108, 151), rgb(113, 145, 175), rgb(156, 125, 192), rgb(132, 172, 209), rgb(144, 116, 176), rgb(179, 128, 176));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh; 
+}
+  
+  .sales-dashboard h1 {
+    margin-bottom: 20px;
+    color: #33213a;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 4px 4px 8px rgba(47, 22, 57, 0.5);
+    font-family: 'Poppins', sans-serif;
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+  }
+
+  .sales-dashboard h1:hover {
+    transform: scale(1.05);
+    color: #513a5b;
+  }
+  
+  .sales-dashboard .chart {
+    margin-top: 20px;
+    width: 600px; 
+    height: 373.5px;
+  }
