@@ -1,0 +1,34 @@
+.footer {
+    background: linear-gradient(to right, rgb(106, 94, 121), rgb(100, 124, 143));
+    color: #212529;
+    text-align: center;
+    /* padding: 20px; */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    height: 50px;
+  }
+
+.footer p {
+    font-size: 1.0em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(20px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  .footer p:hover {
+    animation: bounce 0.5s;
+  }
